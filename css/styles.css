@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: bisque;
+}
+
+.entradas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputEnter {
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:#333;
+    border: none;
+    padding: 10px;
+    color:#fff;
+    
+}
+
+.addBotao {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #333;
+    color: antiquewhite;
+    font-size: 16px;
+    border: none;
+}
+
+.tarefas {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarefas tr td {
+    display: block;
+   
+}
+
+.tarefas tr td div {
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
